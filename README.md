@@ -4,8 +4,12 @@ Strona w RWD
 
 Poprawnie stworzony projekt musi posiadać:
 
-link do repo na GitHubie (Jak stworzyć własne repo na GitHubie?)
-link do dzialajacej strony na Netlify (Jak deploynąć kod z GitHuba na Netlify?)
+link do repo na GitHubie:
+https://github.com/Magyarrigo/cssProjectResponsiveLandingPage.git
+
+link do dzialajacej strony na Netlify:
+https://css-project-responsive-lp.netlify.app/
+
 mieć kod sformatowany z użyciem formatera Prettier (VSCode plug-in)
 
 Opis
