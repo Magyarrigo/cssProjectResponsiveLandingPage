@@ -41,24 +41,20 @@ p {
 .container {
   width: 960px;
   margin: 0 auto;
-  background-color: #405d78;
 }
 @media screen and (min-width: 360px) {
   .container {
     width: 96%;
-    background-color: rgb(153, 255, 0);
   }
 }
 @media screen and (min-width: 768px) {
   .container {
     width: 720px;
-    background-color: rgb(255, 157, 0);
   }
 }
 @media screen and (min-width: 1025px) {
   .container {
     width: 960px;
-    background-color: rgb(255, 0, 0);
   }
 }
 /* header start*/
@@ -122,3 +118,65 @@ p {
   padding: 0 1.7rem;
 }
 /* header end */
+/* landingPage start */
+.landingPage {
+  height: calc(100vh - 50px);
+  background-image: url(../assets/landingPageBackgroundImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.landingPage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--color-black);
+  opacity: 0.4;
+}
+.pageBannerContainer {
+  position: relative;
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  gap: 4rem;
+}
+.pageBannerTitle {
+  width: 22.5rem;
+  height: 5rem;
+}
+.pageBannerDescription {
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+.pageBannerLink {
+  width: 10.25rem;
+  height: 2.5rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  display: flex;
+  align-items: center;
+  border: solid 3px var(--color-primary);
+  justify-content: center;
+  color: var(--color-white);
+  transition: 1s;
+}
+.pageBannerLink:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+@media screen and (min-width: 768px) {
+  .landingPage {
+    height: calc(100vh - 50px);
+  }
+  .pageBannerTitle {
+    width: 36rem;
+    height: 3.75rem;
+  }
+}
+/* landingPage end */
