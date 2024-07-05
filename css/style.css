@@ -1,0 +1,124 @@
+:root {
+  --color-primary: #f1f1f1;
+  --color-secondary: #405d78;
+  --color-navigation: #4e4e4e;
+  --color-footer: #4e4e4e;
+  --color-red: #ff0000;
+  --color-white: #ffffff;
+  --color-black: #000000;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+h1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+p {
+  font-size: 0.8125rem;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #405d78;
+}
+@media screen and (min-width: 360px) {
+  .container {
+    width: 96%;
+    background-color: rgb(153, 255, 0);
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+    background-color: rgb(255, 157, 0);
+  }
+}
+@media screen and (min-width: 1025px) {
+  .container {
+    width: 960px;
+    background-color: rgb(255, 0, 0);
+  }
+}
+/* header start*/
+.header {
+  height: 50px;
+  background-color: var(--color-navigation);
+}
+.headerContainer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-navigation);
+}
+.headerNav {
+  display: none;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    height: 70px;
+  }
+  .headerContainer {
+    height: 70px;
+  }
+  .headerNav {
+    display: flex;
+  }
+}
+
+.logoAtHeaderContainer {
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-white);
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.381rem;
+  text-align: left;
+}
+
+.headerNavList {
+  display: flex;
+  align-items: center;
+}
+.navLink {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1.7rem 0 1.7rem;
+  font-size: 1rem;
+  line-height: 1.375em;
+  border-bottom: 4px solid transparent;
+  letter-spacing: 0.1875rem;
+  color: var(--color-white);
+}
+.navLink:hover {
+  background-color: var(--color-black-opacity-2);
+}
+.navElement {
+  padding: 0 1.7rem;
+}
+/* header end */
