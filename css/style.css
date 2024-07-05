@@ -180,3 +180,79 @@ p {
   }
 }
 /* landingPage end */
+
+/* aboutUs start */
+.aboutUs {
+  background-color: var(--color-primary);
+}
+.aboutUsTitle {
+  color: var(--color-black);
+  padding-top: 3.125rem;
+  text-align: center;
+}
+.associateData {
+  width: 100%;
+  display: block;
+}
+.associateDataTitle {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.associatePhoto {
+  border-radius: 50%;
+  border: solid 2px var(--color-white);
+  width: 12rem;
+  height: 12rem;
+  padding-top: 1.25rem;
+}
+.image {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  aspect-ratio: 1;
+}
+.associateField {
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 1025px) {
+  .aboutUsTitle {
+    text-align: start;
+  }
+  .associateData {
+    width: 80%;
+  }
+
+  .associateDataTitle {
+    margin-bottom: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .associatePhoto {
+    padding-top: 0;
+    width: 150px;
+    height: 150px;
+  }
+  .image {
+    width: 100%;
+  }
+  .associateField {
+    display: flex;
+    min-height: 250px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: start;
+  }
+  .associateField:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: end;
+  }
+}
+
+/* 
+
+*/
+/* aboutUs end */
