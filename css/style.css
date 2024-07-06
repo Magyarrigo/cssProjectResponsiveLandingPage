@@ -325,6 +325,19 @@ p {
 .indexNew {
   font-size: 1rem;
 }
+@media screen and (min-width: 1025px) {
+  .offerItem {
+    display: flex;
+    width: 20%;
+    max-height: 192px;
+    background-color: var(--color-primary);
+    color: var(--color-black);
+    margin: 5%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+  }
+}
 
 .footer {
   width: 100%;
