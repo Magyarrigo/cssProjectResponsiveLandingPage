@@ -205,12 +205,44 @@ p {
   height: 12rem;
   padding-top: 1.25rem;
 }
+.associate-1 {
+  background-image: url(../assets/associate-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.associate-2 {
+  background-image: url(../assets/associate-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.associate-3 {
+  background-image: url(../assets/associate-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.associate-4 {
+  background-image: url(../assets/associate-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.associate-5 {
+  background-image: url(../assets/associate-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/*
 .image {
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
   aspect-ratio: 1;
 }
+  */
 .associateField {
   display: flex;
   text-align: justify;
