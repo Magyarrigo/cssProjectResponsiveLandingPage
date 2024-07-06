@@ -57,7 +57,7 @@ p {
     width: 960px;
   }
 }
-/* header start*/
+
 .header {
   height: 50px;
   background-color: var(--color-navigation);
@@ -117,8 +117,7 @@ p {
 .navElement {
   padding: 0 1.7rem;
 }
-/* header end */
-/* landingPage start */
+
 .landingPage {
   height: calc(100vh - 50px);
   background-image: url(../assets/landingPageBackgroundImage.png);
@@ -179,9 +178,7 @@ p {
     height: 3.75rem;
   }
 }
-/* landingPage end */
 
-/* aboutUs start */
 .aboutUs {
   background-color: var(--color-primary);
 }
@@ -279,8 +276,6 @@ p {
   }
 }
 
-/* aboutUs end */
-/* ourOffer start */
 .offerContainer {
   background-color: var(--color-secondary);
 }
@@ -334,7 +329,7 @@ p {
 .indexNew {
   font-size: 1rem;
 }
-/* ourOffer end */
+
 .footer {
   width: 100%;
   height: 147px;
