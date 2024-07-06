@@ -235,14 +235,7 @@ p {
   background-size: cover;
   background-position: center;
 }
-/*
-.image {
-  width: 12rem;
-  height: 12rem;
-  border-radius: 50%;
-  aspect-ratio: 1;
-}
-  */
+
 .associateField {
   display: flex;
   text-align: justify;
